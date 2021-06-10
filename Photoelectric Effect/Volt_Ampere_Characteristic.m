@@ -35,7 +35,7 @@ hold on;
 h13 = plot(Volt_Ampere_Characteristic_Plot(V, A3), V, A3, '*b');
 hold off;
 
-legend( [h11(1), h12(1), h13(1)], '$\Phi=2nm$', '$\Phi=4nm$', '$\Phi=8nm$', ...
+legend( [h11(1), h12(1), h13(1)], '$\Phi=2mm$', '$\Phi=4mm$', '$\Phi=8mm$', ...
     'Location', 'SouthOutside', 'Interpreter', 'latex', 'Orientation', 'horizon' );
 title('Volt-Ampere Characteristic When $\lambda=436nm, d=40cm$', 'Interpreter', 'latex');
 xlabel('$U\ (V)$', 'Interpreter', 'latex');
@@ -81,7 +81,7 @@ hold off;
 
 legend( [h31(1), h32(1), h33(1)], '$d=32cm$', '$d=36cm$', '$d=40cm$', ...
     'Location', 'SouthOutside', 'Interpreter', 'latex', 'Orientation', 'horizon' );
-title('Volt-Ampere Characteristic When $\Phi=2mm, \lambda=446nm$', 'Interpreter', 'latex');
+title('Volt-Ampere Characteristic When $\Phi=2mm, \lambda=436nm$', 'Interpreter', 'latex');
 xlabel('$U\ (V)$', 'Interpreter', 'latex');
 ylabel('$I\ (10^{-11}A)$', 'Interpreter', 'latex');
 set(gca,'XMinorGrid', 'on', 'YMinorGrid', 'on', ...
