@@ -275,5 +275,8 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 
+# MATLAB auto save
+*.asv
+
 # MacOS
 .DS_Store
